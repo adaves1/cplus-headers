@@ -1,0 +1,20 @@
+#DEFINE STDNMS 0
+#DEFINE NEWLINE "\n"
+
+
+// Constants
+
+#ifndef
+#DEFINE NULL 0
+#endif
+
+function printf(arg: multiple){
+  for arg in arg {
+    string tob = tobytes(arg: for multiple);
+    string ret = frombytes(tob);
+    return ret:DEF << R;
+  }
+  for raw"\n" in arg {
+    return R with NEWLINE;
+  }
+}
